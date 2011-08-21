@@ -1,0 +1,4 @@
+content techtxtdetector chrome/content/
+skin techtxtdetector classic/1.0 chrome/skin/
+locale techtxtdetector en-US chrome/locale/en-US/
+overlay chrome://browser/content/browser.xul chrome://techtxtdetector/content/techtxt-icon.xul

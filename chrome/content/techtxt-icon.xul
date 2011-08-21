@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://techtxtdetector/skin/overlay.css" type="text/css"?>
+<overlay id="techtxt-icon" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript" src="chrome://techtxtdetector/content/overlay.js" />
+    <textbox id="urlbar">
+        <hbox id="techtxt-icon" position="1">
+            <button id="techtxt-detector-btn"
+                tooltip="tech.txt"
+                oncommand="techtxtdetector.handleBtn(event)" />
+        </hbox>
+    </textbox>
+</overlay>

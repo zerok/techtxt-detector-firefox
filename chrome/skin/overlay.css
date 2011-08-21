@@ -1,0 +1,12 @@
+#techtxt-detector-btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 0 !important;
+    line-height: 16px;
+    width: 16px !important;
+    min-width: 16px;
+    max-width: 16px;
+    -moz-appearance: none;
+    list-style-image: url(chrome://techtxtdetector/skin/techtxt-icon-16.png);
+}

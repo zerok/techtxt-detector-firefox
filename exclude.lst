@@ -1,0 +1,5 @@
+.git
+*.xpi
+.gitignore
+Makefile
+exclude.lst

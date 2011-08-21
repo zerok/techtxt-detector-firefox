@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://techtxtdetector/locale/messages.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow id="techtxtdetector-prefs"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <prefpane label="Detection methods">
+        <preferences>
+            <preference id="pref_methods_headlink" name="techtxtdetector.methods.headlink" type="bool" />
+            <preference id="pref_methods_domainfile" name="techtxtdetector.methods.domainfile" type="bool" />
+        </preferences>
+
+        <vbox align="left">
+            <checkbox label="&options.labels.methods.headlink;" preference="pref_methods_headlink" />
+            <checkbox label="&options.labels.methods.domainfile;" preference="pref_methods_domainfile" />
+        </vbox>
+    </prefpane>
+</prefwindow>
