@@ -42,7 +42,7 @@ var techtxtdetector = (function() {
             linkCnt = links.length,
             link = null;
         for (var i = 0; i < linkCnt; i++) {
-            link = links[0];
+            link = links[i];
             if (link.getAttribute('rel') === 'tech.txt') {
                 return link.getAttribute('href');
             }
